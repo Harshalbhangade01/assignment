@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #350707;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ticket-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.ticket {
+    background-color: #6b3a19;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(20, 2, 2, 0.1);
+    overflow: hidden;
+    font-size: 14px;
+}
+.ticket-header {
+    background-color: #0f1010;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.ticket-header .logo {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.ticket-header .college-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ticket-header .event-name {
+    font-size: 16px;
+}
+
+.ticket-details {
+    padding: 20px;
+}
+
+.ticket-details .event-info {
+    margin-bottom: 20px;
+}
+
+.ticket-details .event-info p {
+    margin: 5px 0;
+}
+.ticket-info {
+    background-color: #32464b;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.ticket-info p {
+    margin: 5px 0;
+}
+
+
+
+@media (max-width: 768px) {
+    .ticket {
+        width: 90%;
+        height: auto;
+    }
+
+    .ticket-header .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ticket-header .college-name {
+        font-size: 20px;
+    }
+
+    .ticket-header .event-name {
+        font-size: 14px;
+    }
+}
