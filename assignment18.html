@@ -4,22 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Responsive Navbar</title>
-  <link rel="stylesheet" href="./18.css">
+  <link rel="stylesheet" href="./19.css">
 </head>
 <body>
   <header>
-    <nav class="navbar">
-      
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-      
-    </nav>
-  </header>
 
-  <script src="script.js"></script>
+    <nav class="navbar">
+
+      <div class="navbar-wrapper">
+
+        <a href="#">
+          <img src="./assets/images/logo.svg" alt="logo" width="130">
+        </a>
+
+        <ul class="navbar-nav">
+
+          <li>
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+
+          <li>
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+
+          <li>
+            <a href="#menu" class="nav-link">Our Menu</a>
+          </li>
+
+          <li>
+            <a href="#testimonials" class="nav-link">Testimonials</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-btn-group">
+
+          <button class="shopping-cart-btn">
+            <img src="./assets/images/cart.svg" alt="shopping cart icon" width="18">
+            <span class="count">5</span>
+          </button>
+
+          <button class="menu-toggle-btn">
+            <span class="line one"></span>
+            <span class="line two"></span>
+            <span class="line three"></span>
+          </button>
+
+        </div>
+
+      </div>
+
+    </nav>
 </body>
 </html>
